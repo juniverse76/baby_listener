@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:id="@+id/main_view">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/phone_number_label" />
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:orientation="horizontal">
+		<EditText android:id="@+id/e_phonenumber" android:editable="true"
+			android:phoneNumber="true" android:singleLine="true"
+			android:maxLength="20" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:hint="@string/phone_number_label" />
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/b_search"
+			android:text="@string/contacts_label" />
+
+	</LinearLayout>
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/sensitivity_label" />
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:orientation="horizontal"
+		android:layout_gravity="center_vertical">
+		<TextView android:textSize="20sp" android:textColor="@color/sense_label_color"
+			android:layout_width="wrap_content" android:layout_weight="0"
+			android:text="@string/sensitivity_low_label" android:layout_height="fill_parent"
+			android:gravity="center_vertical" android:id="@+id/sensitivy_text" />
+		<SeekBar android:layout_height="wrap_content"
+			android:layout_marginRight="10px" android:layout_marginLeft="10px"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:id="@+id/s_sensitivity" android:paddingLeft="10px"
+			android:paddingRight="10px" android:progressDrawable="@drawable/sensitivity_bg" android:max="@integer/sense_level_max"/>
+		<TextView android:text="@string/sensitivity_high_label"
+			android:textSize="14sp" android:textColor="@color/sense_label_color"
+			android:layout_width="wrap_content" android:layout_weight="0"
+			android:layout_height="fill_parent" android:gravity="center_vertical" android:id="@+id/dull_text" />
+	</LinearLayout>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/label_test_start" />
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/i_test_image"
+		android:src="@drawable/just_baby" android:layout_gravity="center" />
+
+	<Button android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/b_start"
+		android:text="@string/label_start" android:textSize="25px" />
+
+<!-- 
+	<com.google.ads.AdView android:id="@+id/ad"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		ads:adUnitId="@string/admob_id" ads:adSize="BANNER" ads:loadAdOnCreate="true" />
+ -->
+
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/b_sample"
+		android:text="Sample" android:visibility="gone" />
+</LinearLayout>

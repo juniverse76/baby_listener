@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="sense_label_color">#FF0000</color>
+	<integer name="sense_level_max">20</integer>
+	<string name="admob_id">a14cb79cebaaaba</string>
+</resources>

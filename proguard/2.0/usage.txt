@@ -1,0 +1,75 @@
+com.google.ads.Ad:
+    public abstract boolean isReady()
+    public abstract void loadAd(com.google.ads.AdRequest)
+    public abstract void setAdListener(com.google.ads.AdListener)
+    public abstract void stopLoading()
+com.google.ads.AdActivity:
+    public static final java.lang.String BASE_URL_PARAM
+    public static final java.lang.String HTML_PARAM
+    public static final java.lang.String URL_PARAM
+    public static final java.lang.String INTENT_ACTION_PARAM
+    public static final java.lang.String TYPE_PARAM
+    public static final java.lang.String ORIENTATION_PARAM
+com.google.ads.AdRequest:
+    public static final java.lang.String VERSION
+    public static final java.lang.String LOGTAG
+    public void setGender(com.google.ads.AdRequest$Gender)
+    public void setBirthday(java.lang.String)
+    public void setKeywords(java.util.Set)
+    public void addKeyword(java.lang.String)
+    public void setExtras(java.util.Map)
+    public void addExtra(java.lang.String,java.lang.Object)
+    public void setLocation(android.location.Location)
+    public void setTesting(boolean)
+    public void addTestDevice(java.lang.String)
+    public void setTestDevices(java.util.Set)
+com.google.ads.AdSize:
+    public AdSize(int,int)
+com.google.ads.AdView:
+    public AdView(android.app.Activity,com.google.ads.AdSize,java.lang.String)
+    public void destroy()
+    public boolean isReady()
+    public void setAdListener(com.google.ads.AdListener)
+    public void stopLoading()
+com.google.ads.InterstitialAd:
+    private d a
+    public InterstitialAd(android.app.Activity,java.lang.String)
+    public boolean isReady()
+    public void loadAd(com.google.ads.AdRequest)
+    public void show()
+    public void setAdListener(com.google.ads.AdListener)
+    public void stopLoading()
+com.juniverse.babylistener.BLDebugger:
+    public static final boolean FOR_TSTORE
+    public static final boolean _DEBUG
+    private static final java.lang.String filter
+com.juniverse.babylistener.BabyListener:
+    public static final int PICK_CONTACT
+    public static final java.lang.String KEY_PHONENUMBER
+    public static final java.lang.String KEY_SENSITIVITY
+    public static final java.lang.String KEY_FIRST_TIME
+    private static final int MSG_COUNT_DOWN
+com.juniverse.babylistener.DetectorService:
+    private static final int MSG_STOPPED_SMS
+    private static final int MSG_LOW_BATTERY_SMS
+com.juniverse.babylistener.R
+com.juniverse.babylistener.R$attr
+com.juniverse.babylistener.R$color
+com.juniverse.babylistener.R$drawable
+com.juniverse.babylistener.R$id
+com.juniverse.babylistener.R$integer
+com.juniverse.babylistener.R$layout
+com.juniverse.babylistener.R$menu
+com.juniverse.babylistener.R$plurals
+com.juniverse.babylistener.R$string
+com.juniverse.babylistener.R$styleable
+com.juniverse.babylistener.R$xml
+com.juniverse.babylistener.Settings:
+    public static final int DEFAULT_SAMPLE_RATE
+    public static final int SAMPLING_TIME
+d:
+    public final synchronized void b()
+    public final synchronized boolean o()
+    public final synchronized void a(com.google.ads.AdListener)
+    public final synchronized void x()
+    public final synchronized void y()

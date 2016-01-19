@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference android:key="onpause"
+		android:summary="@string/setting_sms_unexpected_pause_des"
+		android:title="@string/setting_sms_unexpected_pause" android:defaultValue="true"/>
+	<!--
+	<CheckBoxPreference android:key="onbatterylow"
+		android:summary="@string/setting_sms_low_battery_des"
+		android:title="@string/setting_sms_low_battery" android:defaultValue="true"/>
+	<CheckBoxPreference android:key="onresume"
+		android:summary="@string/setting_sms_unexpected_resume_des"
+		android:title="@string/setting_sms_unexpected_resume" />
+	  -->
+	<com.juniverse.preference.NumberTextPreference android:title="@string/setting_time_before_start"
+		android:dialogTitle="@string/label_waiting"
+		android:key="@string/key_waiting_time" android:defaultValue="5" />
+</PreferenceScreen>

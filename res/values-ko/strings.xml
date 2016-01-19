@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- for release -->
+	<string name="description">자는 아기 지킴이는 안드로이드 베이비 모니터 어플리케이션입니다.\n자는 아기의 울음소리를 감지하여 설정된 전화번호로 연결을 시도합니다.\n자는 아기 지킴이는 조용히 있습니다.\n자는 아기 지킴이는 전화를 받지 않습니다.\n자는 아기 지킴이는 그냥 조용히 듣고 있다가 전화를 겁니다.</string>
+    <string name="app_name">자는 아기 지킴이</string>
+    
+    <!-- 
+	<string name="warning">경고:\n
+1. 아기를 두고 멀리 가지 마세요. 알림을 받을 수 있지만 반응할 시간이 없을 수 있습니다.\n
+2. 특정 다이얼러에 (예: Dialer One) 등록되지 않는 번호로 전화가 올 경우 저장여부를 물어보는 팝업을 띄울 수 있습니다. 이럴 경우 지킴이가 재시작 하지 않을 수 있습니다. 꼭 이 기능을 꺼두시기 바랍니다.\n
+3. 만약을 위해 충전 케이블을 연결해서 사용하세요.
+	</string>
+	<string name="before_use">사용전:\n
+1. 자는 아기 지킴이를 사용하기 전에 아기 울음소리의 감도를 설정하세요.\n
+2. 소리 감도 슬라이더를 움직이세요.\n
+3. 아기 아이콘을 눌러서 테스트를 시작하세요. \'zzz\' 표시가 되어 있으면 테스트 감지모드로 들어간 상태입니다.\n
+4. 전화기를 원하시는 거리에 두세요.\n
+5. 자는 아기 지킴이가 소리를 감지하면 아기 아이콘이 우는 아기로 변합니다.\n
+6. 아이콘을 다시 누르면 감지모드로 돌아갑니다.\n
+7. 최고의 효율을 위해 2번 부터 반복하여 가능한 가장 둔감한 감도로 설정하세요.
+	</string>
+	<string name="usage">사용 방법:\n
+1. 전화번호를 직접 입력하거나 연락처 버튼을 눌러 전화번호를 선택하세요.\n
+2. \'지킴이 시작\' 버튼을 누르세요.\n
+3. 지킴이 모드가 시작하기 전에 전화기를 조용히 놓아두세요.
+	</string>
+	<string name="known_issues">알려진 이슈:\n
+1. 전화 수신으로 인해 지킴이가 정지 될 경우에는 문자가 보내지지 않습니다.\n
+2. 특정 기종의 휴대폰에서는 통화 시도후에 바로 돌아오지 않고 통화내역 화면으로 진입합니다. 이럴 때는 지킴이 모드가 다시 실행되지 않습니다.
+	</string>
+	<string name="email">juniverse76@gmail.com</string>
+	<string name="m_home_page">\'아빠앱\' 2탄. 용돈인생 - 클릭</string>
+    <string name="m_allowancelife_url_for_market">market://details?id=com.juniverse.allowancelife</string>
+    <string name="m_allowancelife_url_for_tstore">http://m.tstore.co.kr/userpoc/mp.jsp?pid=OA00144420</string>	
+     -->
+	
+	<string name="phone_number_label">전화번호를 입력하세요</string>
+	<string name="contacts_label">연락처</string>
+	<string name="sensitivity_label">소리 감도를 설정하세요</string>
+	<string name="sensitivity_low_label">민감</string>
+	<string name="sensitivity_high_label">둔감</string>
+	<string name="label_start">지킴이 시작</string>
+	<string name="label_stop">지킴이 실행중...(정지하기)</string>
+	<string name="service_started">service</string>
+	<string name="label_report">오류 신고</string>
+	<string name="label_close">닫기</string>
+	<string name="label_setting">설정</string>
+	<string name="label_waiting">대기시간(초)</string>
+	<string name="label_ok">확인</string>
+	<string name="label_cancel">취소</string>
+	<string name="text_no_number">전화번호가 설정되지 않았습니다.</string>
+	<string name="msg_started">지킴이가 시작됬습니다.</string>
+	<string name="msg_stop_dected">누르면 지킴이를 종료합니다.</string>
+	<string name="msg_low_battery">배터리가 얼마 남지 않았습니다.</string>
+	
+    <plurals name="label_start_countdown">
+        <item quantity="one">%d초 후에 시작합니다. 귀를 누르면 취소합니다.</item>
+        <item quantity="other">%d초 후에 시작합니다. 귀를 누르면 취소합니다.</item>
+    </plurals>
+	<string name="label_listening">지킴이 실행중... 귀를 누르면 종료합니다.</string>
+	<string name="label_listening_text">지킴이 실행중... 누르면 종료합니다.</string>
+	
+	<string name="label_test_stop">테스트 중지</string>
+	<string name="label_test_start">아기를 터치하여 테스트 해보세요.</string>
+	<string name="label_popup_close">닫기</string>
+	<string name="label_no_number_title">전화번호 없음</string>
+	<string name="label_no_number_message">전화번호를 입력하세요.</string>
+	<string name="message_listening_mode_canceled">지킴이 모드가 취소되었습니다.</string>
+	<string name="message_listening_mode_ended">지킴이 모드가 종료되었습니다.</string>
+	<string name="message_listening_mode_started">지킴이 모드가 다시 시작되었습니다.</string>
+	
+	<string name="setting_sms_unexpected_pause">의도하지 않은 종료 알림</string>
+	<string name="setting_sms_unexpected_pause_des">의도하지 않게 종료될 경우 SMS로 알림</string>
+	<string name="setting_sms_unexpected_resume">지킴이 재시작시 알림</string>
+	<string name="setting_sms_unexpected_resume_des">지킴이 모드가 재시작했을 때 SMS로 알림</string>
+	<string name="setting_sms_low_battery">배터리 부족 알림</string>
+	<string name="setting_sms_low_battery_des">배터리 양이 얼마 남지 않았을 때 SMS로 알림</string>
+	<string name="setting_time_before_start">대기시간</string>
+	<string name="setting_time_before_start_des">지킴이 시작전 대기시간 : %d초</string>
+	
+	<string name="key_waiting_time">waitingtime</string>
+</resources>

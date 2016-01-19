@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="description">Baby Listener is an Android baby monitor that will listen for baby\'s cry and alert the parents by connecting voice call.\nBaby Listener will stay quiet.\nBaby Listener will not answer call.\nBaby Listener will just shut up, listen and call.</string>
+    <string name="app_name">Baby Listener</string>
+    
+    <!-- 
+	<string name="warning">Warning:\n
+1. DO NOT leave your baby far away. You may get the alert, but you may NOT have enough time to react.\n
+2. Some dialer (ex. Dialer One) has setting for showing popup when unknown caller called. Be sure to turn it off. Baby Listener may not resume when unknown caller called. You can be notified if Baby Listener has stopped unexpected (ex. incoming call) via Setting.\n
+3. Please use while charging cable is connected, just in case.
+	</string>
+	<string name="before_use">Before Use:\n
+1. Before using Baby Listener, try to setup sensitivity for your baby\'s cry.\n
+2. Move sensitivity slider.\n
+3. Touch baby icon for testing. \'zzz\' image will show when it is test detecting mode.\n
+4. Keep the device within expected distance.\n
+5. When Baby Listener detects baby\'s cry, the icon will change to crying baby image.\n
+6. Touching the crying baby image will set Baby Listener to test detecting mode again.\n
+7. Continue from 2 until setting up the lowest possible sensitivity for maximum effectiveness.
+	</string>
+	<string name="usage">Usage:\n
+1. Type in a phone number that Baby Listener should call when baby cries or select a phone number from contacts list by pressing contacts button.\n
+2. Click \'Start\' button.\n
+3. Place the device quietly before detecting started.
+	</string>
+	<string name="known_issues">Known Issues:\n
+1. SMS will not be sent when the Baby Listener is paused caused by incoming call.\n
+2. Certain mobile devices will go into call record screen after call which prevents from restarting detecting mode.
+	</string>
+	<string name="email">juniverse76@gmail.com</string>
+	<string name="m_home_page">http://junidea.tistory.com/1</string>
+    <string name="m_allowancelife_url_for_market">http://junidea.tistory.com/1</string>
+    <string name="m_allowancelife_url_for_tstore">http://junidea.tistory.com/1</string>	
+     -->
+    
+	<string name="phone_number_label">Enter phone number</string>
+	<string name="contacts_label">Contacts</string>
+	<string name="sensitivity_label">Specify sound sensitivity</string>
+	<string name="sensitivity_low_label">High</string>
+	<string name="sensitivity_high_label">Low</string>
+	<string name="label_start">Start Listening</string>
+	<string name="label_stop">Listening... (Click to stop)</string>
+	<string name="service_started">service</string>
+	<string name="label_report">Report error</string>
+	<string name="label_close">Close</string>
+	<string name="label_setting">Setting</string>
+	<string name="label_waiting">Time (seconds)</string>
+	<string name="label_ok">Ok</string>
+	<string name="label_cancel">Cancel</string>
+	<string name="text_no_number">Phone Number has not been set</string>
+	<string name="msg_started">Listening started</string>
+	<string name="msg_stop_dected">Click to stop Listening mode</string>
+	<string name="msg_low_battery">Your phone has not enough battery.</string>
+	
+    <plurals name="label_start_countdown">
+        <item quantity="one">starting in %d second. Click ear to cancel.</item>
+        <item quantity="other">starting in %d seconds. Click ear to cancel.</item>
+    </plurals>
+	<string name="label_listening">Listening... Click ear to stop.</string>
+	<string name="label_listening_text">Listening... Click to stop.</string>
+	
+	<string name="label_test_stop">Stop test</string>
+	<string name="label_test_start">Touch the baby to test.</string>
+	<string name="label_popup_close">Close</string>
+	<string name="label_no_number_title">No Number</string>
+	<string name="label_no_number_message">You must specify the phone number.</string>
+	<string name="message_listening_mode_canceled">Listening mode has been canceled.</string>
+	<string name="message_listening_mode_ended">Listening mode has been terminated.</string>
+	<string name="message_listening_mode_started">Listening mode has been restarted.</string>
+	
+	<string name="setting_sms_unexpected_pause">Unexpected Pause Notice</string>
+	<string name="setting_sms_unexpected_pause_des">Notify when paused expectedly via SMS</string>
+	<string name="setting_sms_unexpected_resume">Listener Resume Notice</string>
+	<string name="setting_sms_unexpected_resume_des">Notify when listener resumed via SMS</string>
+	<string name="setting_sms_low_battery">Low battery Notice</string>
+	<string name="setting_sms_low_battery_des">Notify when battery is low via SMS</string>
+	<string name="setting_time_before_start">Waiting Time</string>
+	<string name="setting_time_before_start_des">Waiting time before listening starts : %d seconds</string>
+	
+	<string name="key_waiting_time">waitingtime</string>
+</resources>

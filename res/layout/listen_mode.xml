@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	>
+		<TextView android:text="@string/label_listening"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/mode_text"
+			android:layout_gravity="center" 
+			android:drawableTop="@drawable/ear" />
+
+<!-- 
+	<com.google.ads.AdView android:id="@+id/ad"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		ads:adUnitId="@string/admob_id" ads:adSize="BANNER" ads:loadAdOnCreate="true" 
+		android:layout_gravity="bottom" />
+ -->
+</FrameLayout>
