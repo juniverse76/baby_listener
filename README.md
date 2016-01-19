@@ -11,4 +11,4 @@ I opened this project, so feel free to clone away~~~
 
 * Warning *
 This is Android only, and the project structure is in old system not gradle.
-So, some conversion is necessary if you want to build for yourself.
+So, some conversions are necessary if you want to build for yourself.
