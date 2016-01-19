@@ -9,6 +9,6 @@ Of course, we didn't go too far away; a minute away by running or just next door
 
 I opened this project, so feel free to clone away~~~
 
-* Warning *
+# Warning
 This is Android only, and the project structure is in old system not gradle.
 So, some conversions are necessary if you want to build for yourself.
